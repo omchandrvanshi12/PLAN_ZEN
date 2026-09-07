@@ -1,0 +1,1 @@
+export default function ProgressBar({ value, accent = false }) { return <div className={`progress-track ${accent ? 'accent' : ''}`}><div className="progress-fill" style={{ width: `${Math.min(value, 100)}%` }} /></div> }
